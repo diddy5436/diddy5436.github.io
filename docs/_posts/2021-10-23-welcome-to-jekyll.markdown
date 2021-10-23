@@ -39,6 +39,7 @@ University of Manitoba | Expected: January 2023
 - Collaborate with store management to accomplish department goals such as putting up or taking down marketing materials, or ensuring products sold in the department are stocked to increase overall sales.
 - Prevent theft and report to those associated to theft prevention while ensuring safety of staff to minimize store loss.
 - Input data into store's backend server to ensure department data is consistant with server data.
+
 #### Customer Service | Sobeys Extra
 ##### Part-Time Employement _July 2019 - Aug. 2021_
 - Assisted supervisors in completing their tasks by providing aid to staff as needed to maintain service delivery.
@@ -46,6 +47,7 @@ University of Manitoba | Expected: January 2023
 - Maintained supplies to ensure staff could work efficiently by refilling empty cleaning supplies, refilling bags and informing
 supervisors of any staff needs to maintain a stream-lined workflow.
 - Sold lottery at customer request as a value added product.
+
 ### PROJECTS
 
 ---
@@ -54,8 +56,10 @@ supervisors of any staff needs to maintain a stream-lined workflow.
 - Building a webpage that allows a user to log in or create an account using HTML/CSS for visuals and JavaScript for animations.
 - Building a backend web server using Node.js.
 - Using an SQLite database to store and access information.
+
 #### Unity Game Development | Tutorials
 - Completed many game development tutorials hosted by unity
+
 ### VOLUNTEER EXPERIENCE
 
 ---
