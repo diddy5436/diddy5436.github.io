@@ -1,0 +1,8 @@
+---
+layout: post
+title: README
+permalink: /readme/
+---
+
+## Hosting a Static Site on GitHub Pages
+To start with, a static site is 
