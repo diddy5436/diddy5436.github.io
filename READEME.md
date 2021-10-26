@@ -1,9 +1,3 @@
----
-layout: post
-title: README
-permalink: /readme/
----
-
 ### Hosting a Static Site on GitHub Pages
 The purpose of this post is to show you exactly how you can build a static site to host your resume. Your resume will be types out in markdown and your finished site will be hosted on GitHub pages, this site will have some features including a responsive setup so that is can be viewd easily on multiple device screen sizes.
 
