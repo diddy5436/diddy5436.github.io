@@ -1,9 +1,5 @@
 ---
-layout: post
-title: Resume
-permalink: /
 ---
-
 # Haseeb Paracha
 ### Computer Science Student
 **Phone** (204) 831 - 8130 **E-mail** parachah@myumanitoba.ca
