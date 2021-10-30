@@ -35,3 +35,5 @@ Some markdown editors:
 Here is my [resume](https://diddy5436.github.io/resume) for reference.
 
 Here is a link to [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on writing technical works.
+
+## Authors and Ak
