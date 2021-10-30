@@ -19,6 +19,8 @@ Finally, we can optionally set up Jekyll on our local machine. Jekyll is a stati
 5. GitHub can take time to load your request, it can take up to 30 minutes. Thus if your resume does not quite look the way you want it to, then every edit to it will require another interval for it to update. Because of this case, you can install Jekyll locally to test how your site looks, doing this saves the time you would spend waiting for GitHub to proces your changes. If you do this, then simply keep modifying your file until you are satisfied and reupload the file.
 6. Finally, to view your now completed site, on your web browser, search up your_user_name.github.io, this is the home page of your GitHub pages, and here is where you will find your resume. If you would like a reference, take a look at the "More Resources" section where I have linked my own GitHub pages site, on the site I have my resume uplaoded. 
 
+![Gif of my resume](https://github.com/diddy5436/diddy5436.github.io/blob/main/Animation.gif)
+
 ## More Resources
 
 A few resources on markdown:
