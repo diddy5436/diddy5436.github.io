@@ -12,7 +12,10 @@ Finally, we can optionally set up Jekyll on our local machine. Jekyll is a stati
 
 ## Instructions
 
-1. To start with, we need to set up our GitHub Pages repository. in order to do this, we will need to open GitHub and sign in. Then, we will click the "+" button in the top right hand corner of the screen and click on "New repository". In the repository name field, type (your_user_name).github.io, the your_user_name needs to match the user name to the left of the "/" exactly. Everything else can be left as their default values, and press the "create repository" button.
+1. To start with, we need to set up our GitHub Pages repository. in order to do this, we will need to open GitHub and sign in. Then, we will click the "+" button in the top right hand corner of the screen and click on "New repository". In the repository name field, type (your_user_name).github.io, the your_user_name needs to match the user name to the left of the "/" exactly. Everything else can be left as their default values, and press the "create repository" button. Github is a distributed version control system or DVCS for short, as mensioned by Etter in his book Modern Technical Writing;
+
+> DVCS have better performance, allow for offline work, and are superior for concurrent work on the same file.
+
 2. From this page, along the top bar is a settings button, click that button, and on the following screen click on the pages tab in the navigation bar on the left. Here we can click on the choose theme button, and select a theme for our website, in my case, I chose to use the slate theme.
 3. After selecting a theme, go to the code tab towards the left of the screen. Now from here we will switch to our resume. If you already have one formatted in markdown, then rename the file to index.md, otherwise, make a new file and create your markdown resume.
 4. Now returning to GitHub, from the code page of the GitHub pages repository, open the add file drop down and click upload files, then drag and drop your markdown resume into the fesignated area. Then add a title for the commit, and optionally, add some comments, them press commit changes.
