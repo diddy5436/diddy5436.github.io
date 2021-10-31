@@ -37,7 +37,7 @@ A few resources on markdown:
 - [Learn Markdown](https://www.markdowntutorial.com)
 - [A Markdown Cheat Sheet](https://www.markdownguide.org/basic-syntax/)
 
-[Here](https://www.oberlo.ca/blog/markdown-editors) is a website that has a list of great markdown editors, it includes the one I used, Byword as well.
+[Here](https://www.oberlo.ca/blog/markdown-editors) is a website that has a list of great markdown editors, it includes the one I used, Byword, as well.
 
 Here is my [resume](https://diddy5436.github.io/resume) for reference.
 
