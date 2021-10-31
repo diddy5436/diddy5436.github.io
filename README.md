@@ -37,11 +37,7 @@ A few resources on markdown:
 - [Learn Markdown](https://www.markdowntutorial.com)
 - [A Markdown Cheat Sheet](https://www.markdownguide.org/basic-syntax/)
 
-Some markdown editors:
-
-1. [Byword](https://apps.apple.com/us/app/byword/id420212497?mt=12) is an app on the mac app store for $10.99.
-2. [MacDown](https://macdown.uranusjr.com) is a free mardown editor for mac.
-3. [Typora](https://typora.io/#windows) is a free markdown editor for windows.
+[Here](https://www.oberlo.ca/blog/markdown-editors) is a website that has a list of great markdown editors, it includes the one I used, Byword as well.
 
 Here is my [resume](https://diddy5436.github.io/resume) for reference.
 
