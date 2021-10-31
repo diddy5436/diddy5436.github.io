@@ -49,7 +49,7 @@ This repository was entirely developed by me, any work that was not my own has b
 
 ## Acknowledgements
 
-The template I based this README off of was made by Purple Booth and can be found[here](https://github.com/PurpleBooth/a-good-readme-template).
+The template I based this README off of was made by Purple Booth and can be found [here](https://github.com/PurpleBooth/a-good-readme-template).
 
 ## FAQ
 
