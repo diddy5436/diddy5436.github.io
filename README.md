@@ -39,7 +39,7 @@ A few resources on markdown:
 
 [Here](https://www.oberlo.ca/blog/markdown-editors) is a website that has a list of great markdown editors, it includes the one I used, Byword, as well.
 
-Here is my [resume](https://diddy5436.github.io/resume) for reference.
+Here is my [resume](https://diddy5436.github.io) for reference.
 
 Here is a link to [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on writing technical works.
 
