@@ -6,9 +6,9 @@ The purpose of this README is to show you how to both create and upload a resume
 
 Before we get started, we need to get a few things set up. First we need to create a [Github](https://github.com) account if we don't already have one. After that we will need to make a resume formatted in markdown. In order to get this setup, you will first need to convert your current resume, or build a new one in markdown, if you don't know how to write in markdown, then refer to the "More Resources" section where I have linked a markdown cheat sheet and a tutorial on how to write markdown.
 
-Next we will need a markdown editor to write our markdown in, this will be used to create both your resume and the content of any other pages you may create. I have linked to a few markdown editors in the "More Resources" section for you to take a look at. I wrote my markdown using Byword, which is a paid app for mac, however I have also linked some free ones that you could also give a try.
+Next we will need a markdown editor to write our markdown in, this will be used to create both your resume and the content of any other pages you may create. I have put a link to a website in the "More Resources" section that lists a few great markdown editors, the editor I used is Byword, a paid app for the mac.
 
-Finally, we can optionally set up Jekyll on our local machine. Jekyll is a static site generator that converts our markdown into HTML and CSS and prepares our site. [Here](https://jekyllrb.com/docs/installation/) is a tutorial on how to set up Jekyll on your machine. The reason we would want to have Jekyll on our machine is so we do not have to wait for github to update our page, which can take up to 30 minutes after each commit.
+Finally, we can optionally set up Jekyll on our local machine. Jekyll is a static site generator that converts our markdown into HTML and CSS and prepares our site. [Here](https://jekyllrb.com/docs/installation/) is a tutorial on how to set up Jekyll on your machine. Developing your site locally will allow you to see your changes take place almost instantly, meanwhile, simply comitting your changes to GitHub may result in a delay of up to 30 minutes before your changes take effect.
 
 ## Instructions
 
