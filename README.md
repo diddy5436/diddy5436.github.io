@@ -37,7 +37,7 @@ A few resources on markdown:
 - [Learn Markdown](https://www.markdowntutorial.com)
 - [A Markdown Cheat Sheet](https://www.markdownguide.org/basic-syntax/)
 
-[Here](https://www.oberlo.ca/blog/markdown-editors) is a website that has a list of great markdown editors, it includes the one I used, Byword, as well.
+Here is a [website](https://www.oberlo.ca/blog/markdown-editors) that has a list of great markdown editors, it includes the one I used, Byword, as well.
 
 Here is my [resume](https://diddy5436.github.io) for reference.
 
@@ -55,7 +55,7 @@ The template I based this README off of was made by Purple Booth and can be foun
 
 #### Why is Markdown better than a word processor?
 
-A word processor's main funtion is to create PDFs, however, in many cases, we don't want to simply download our information as a PDF, we want something that can continue to change, and also have a variety of ways to represent the information. With markdown, we can represent our information in simple text, slide shows, and websites. There are many more ways of presenting markdown, which makes it far superior to a word processor in many areas.
+	A word processor's main funtion is to create PDFs, however, in many cases, we don't want to simply download our information as a PDF, we want something that can continue to change, and also have a variety of ways to represent the information. With markdown, we can represent our information in simple text, slide shows, and websites. There are many more ways of presenting markdown, which makes it far superior to a word processor in many areas.
 
 #### Why does my resume not appear on my GitHub homepage?
 
