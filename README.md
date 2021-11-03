@@ -44,6 +44,7 @@ Though not completely relavent to this task, knowing the many features of DVCS h
 	- Click the change theme button.
 	- Select a theme from the top bar.
 	- Click the green select theme button.
+	- Go to the code tab towards the left top bar, after selecting a theme.
 
 I opted to use the slate theme as it is simple and does not drag your focus away from the main content.
 
@@ -51,14 +52,11 @@ Etter mentions in his book,
 > you provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website.
 In other words, Jekyll takes as input the theme and markdown, and outputs a site built with HTML and CSS.
 
-	- Go to the code tab towards the left top bar, after selecting a theme.
-
 3. Uploading resume to GitHub
 
+As mentioned in the previous step, your resume will be the markdown input to Jekyll.
+
 	- Ensure your resume file is named _index.md_
-
-As mentioned in the previous step, this file will be the markdown input to Jekyll.
-
 	- Return to GitHub
 	- Open the add file drop down
 	- Click upload files
