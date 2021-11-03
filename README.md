@@ -20,7 +20,7 @@ You will use the markdown editor to create your resume and any other content on 
 
 - (Optional) Jekyll
 
-This is optional, but will speed up the development of your site by reducing the number of commits you need to make, and in turn, reduce the time you spend waiting for GitHub to show the changes you make to your site. There is a link in the _More Resoures_ section that shows you how to install Jekyll.
+This is optional, but will speed up the development of your site by reducing the number of commits you need to make, and in turn, reduce the time you spend waiting for GitHub to show the changes you make to your site. There is a link in the _More Resources_ section that shows you how to install Jekyll.
 
 ## Instructions
 
