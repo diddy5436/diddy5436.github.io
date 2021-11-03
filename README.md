@@ -54,8 +54,6 @@ In other words, Jekyll takes as input the theme and markdown, and outputs a site
 
 3. Uploading resume to GitHub
 
-As mentioned in the previous step, your resume will be the markdown input to Jekyll.
-
 	- Ensure your resume file is named _index.md_
 	- Return to GitHub
 	- Open the add file drop down
@@ -64,6 +62,8 @@ As mentioned in the previous step, your resume will be the markdown input to Jek
 	- Add a title for the commit,
 	- Optionally, add some comments
 	- Press commit changes.
+
+As mentioned in the previous step, your resume will be the markdown input to Jekyll.
 
 Commits are what allow many individuals to contribute to a project, these commits need an internet connection, thus any progress can be stored locally until internet is present, where the commit can take place. This is directly related to how DVCS work as menstioned in part 1.
 
