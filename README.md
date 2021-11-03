@@ -1,30 +1,83 @@
 # Hosting a Static Site on GitHub Pages
 
-The purpose of this README is to show you how to both create and upload a resume formatted in markdown onto GitHub pages using a static site generator. The resulting site will have a few features, the prominant one being that we won't need to write any XML or HTML/CSS, the other features are easy to change themes and a fully responsive site. A responsive site is a site that changes it's features to maintain a good visual appearance on multiple screen sizes.
+The purpose of this README is to show you how to upload a resume formatted in markdown onto GitHub pages using a static site generator. The resulting site will have a few features, the prominant one being that we won't need to write any XML or HTML/CSS, the other features are easy to change themes and a fully responsive site. A responsive site is a site that changes it's features to maintain a good visual appearance on multiple screen sizes.
 
 ## Some Prerequities
 
-Before we get started, we need to get a few things set up. First we need to create a [Github](https://github.com) account if we don't already have one. After that we will need to make a resume formatted in markdown. In order to get this setup, you will first need to convert your current resume, or build a new one in markdown, if you don't know how to write in markdown, then refer to the "More Resources" section where I have linked a markdown cheat sheet and a tutorial on how to write markdown.
+Before we get started, you will need to set a few things up. You will need the following:
 
-Next we will need a markdown editor to write our markdown in, this will be used to create both your resume and the content of any other pages you may create. I have put a link to a website in the "More Resources" section that lists a few great markdown editors, the editor I used is Byword, a paid app for the mac.
+- A GitHub account
 
-Finally, we can optionally set up Jekyll on our local machine. Jekyll is a static site generator that converts our markdown into HTML and CSS and prepares our site. [Here](https://jekyllrb.com/docs/installation/) is a tutorial on how to set up Jekyll on your machine. Developing your site locally will allow you to see your changes take place almost instantly, meanwhile, simply comitting your changes to GitHub may result in a delay of up to 30 minutes before your changes take effect.
+GitHub is a distributed version control system, and it will be needed to host your GitHub pages site.
+
+- A resume formatted in markdown
+
+If you are not already familiar with markdown, refer to the _More Resources_ section where I have linked a markdown tutorial, as well as a markdown cheet sheet to help you make your markdown formatted resume.
+
+- A markdown editor
+
+You will use the markdown editor to create your resume and any other content on your GitHub pages site. I used Byword, it is very minimal, has a preview for your formatted text, and has great text highlighting.
+
+- (Optional) Jekyll
+
+This is optional, but will speed up the development of your site by reducing the number of commits you need to make, and in turn, reduce the time you spend waiting for GitHub to show the changes you make to your site. There is a link in the _More Resoures_ section that shows you how to install Jekyll.
 
 ## Instructions
 
-1. To start with, we need to set up our GitHub Pages repository. In order to do this, we will need to open GitHub and sign in. Then, we will click the "+" button in the top right hand corner of the screen and click on "New repository". In the repository name field, type (your_user_name).github.io, your_user_name needs to match the user name to the left of the "/" verbatim. All other settings can be left as their default values, then press the "create repository" button. A Github repository is a form of a distributed version control system or DVCS for short, as mensioned by Etter in his book Modern Technical Writing;
+1. Set up our GitHub Pages repository:
+
+	- Sign in to Github. 
+	- Click the "+" button in the top right hand corner of the screen
+	- Click on "New repository".
+	- Type (your_user_name).github.io in the repository name field, your_user_name needs to match the user name to the left of the "/" verbatim
+	- Leave all other settings as their default values.
+	- Press the "create repository" button.
+
+A Github repository is a form of a distributed version control system or DVCS for short, as mensioned by Etter in his book Modern Technical Writing;
 > DVCS have better performance, allow for offline work, and are superior for concurrent work on the same file.
 Though not completely relavent to this task, knowing the many features of DVCS help when working on projects in a group, as well as aid in building your site more effectively.
-2. From this page, along the top bar is a settings button, click that button, and on the following screen, click on the pages tab in the navigation bar on the left. Here we can click on the choose theme button, and select a theme for our website, in my case, I chose to use the slate theme. As mensioned in Etter book,
+
+2. Set a theme for your GitHub pages site:
+
+	- Click the Settings button towards the right of the top bar.
+	- Click the pages tab towards the bottom of the navigation bar on the left.
+	- Click the change theme button.
+	- Select a theme from the top bar.
+	- Click the green select theme button.
+
+I opted to use the slate theme as it is simple and does not drag your focus away from the main content.
+
+Etter mentions in his book,
 > you provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website.
 In other words, Jekyll takes as input the theme and markdown, and outputs a site built with HTML and CSS.
-3. After selecting a theme, go to the code tab towards the left of the screen.
-4. From here we will switch to our resume. If you already have one formatted in markdown, rename the file to index.md, otherwise, make a new file and create your markdown resume, as mentioned in the previous step, this file will be the markdown input to Jekyll.
-5. Now returning to GitHub, from the code page of the GitHub pages repository, open the add file drop down and click upload files, then drag and drop index.md into the designated area, add a title for the commit, and optionally, add some comments, them press commit changes. Commits are what allow many individuals to contribute to a project, these commits need an internet connection, thus any progress can be stored locally until internet is present, where the commit can take place. This is directly related to how DVCS work as menstioned in part 1.
-6. It can take time for the changes you make to become visible on your GitHub pages site, this delay is caused by GitHub. The best way to bypass this wait interval is to develop your site locally with Jekyll until the results are satisfactory, and then commit the final result. When testing locally, Jekyll will make a local web server to host your site, as Etter mensions,
+
+	- Go to the code tab towards the left top bar, after selecting a theme.
+
+3. Uploading resume to GitHub
+
+	- Ensure your resume file is named _index.md_
+
+As mentioned in the previous step, this file will be the markdown input to Jekyll.
+
+	- Return to GitHub
+	- Open the add file drop down
+	- Click upload files
+	- Drag and drop index.md into the designated area
+	- Add a title for the commit,
+	- Optionally, add some comments
+	- Press commit changes.
+
+Commits are what allow many individuals to contribute to a project, these commits need an internet connection, thus any progress can be stored locally until internet is present, where the commit can take place. This is directly related to how DVCS work as menstioned in part 1.
+
+It can take time for the changes you make to become visible on your GitHub pages site, this delay is caused by GitHub. The best way to bypass this wait interval is to develop your site locally with Jekyll until the results are satisfactory, and then commit the final result. When testing locally, Jekyll will make a local web server to host your site, as Etter mensions,
 > You can test static websites on your local computer without installing anything and compress and ship them with software applications.
 Simply put, there is no need to build a custom web server, or download a heavy web server to test your site. The primary benefits of doing is a lower storage usage and close to live updates on your site for each change you make.
-7. Finally, to view your now completed site, in your web browser, search up your_user_name.github.io, this is the home page of your GitHub pages repository, here is where you will find your resume. If you would like a reference, take a look at the "More Resources" section where I have linked my own GitHub pages site, on the site I have my resume uplaoded. 
+
+4. View your now completed site
+
+	- Search up your_user_name.github.io in your web browser, this is the home page of your GitHub pages repository, here is where you will find your resume. 
+
+If you would like a reference, take a look at the _More Resources_ section where I have linked my own GitHub pages site, on the site I have my resume uplaoded. 
 
 The result of following the above steps is a site containing your resume. Below is a Gif of my resume that I have hosted on my GitHub pages.
 
@@ -36,29 +89,33 @@ A few resources on markdown:
 
 - [Learn Markdown](https://www.markdowntutorial.com)
 - [A Markdown Cheat Sheet](https://www.markdownguide.org/basic-syntax/)
+- A [website](https://www.oberlo.ca/blog/markdown-editors) that has a list of great markdown editors.
 
-Here is a [website](https://www.oberlo.ca/blog/markdown-editors) that has a list of great markdown editors, it includes the one I used, Byword, as well.
+- my [resume](https://diddy5436.github.io) for reference.
 
-Here is my [resume](https://diddy5436.github.io) for reference.
+- A link to [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on technical writing.
 
-Here is a link to [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on writing technical works.
+## Authors and Acknowledgements
 
-## Authors
+The contents of this repository were writen by myself with the help of the following individuals:
 
-This repository was entirely developed by me, any work that was not my own has been noted and any necessary links to my sources have been provided.
-
-## Acknowledgements
+- Zhijie Zheng
+- Akshay Sharma
+- Farhan Rahman
+- Kien Mai
 
 The template I based this README off of was made by Purple Booth and can be found [here](https://github.com/PurpleBooth/a-good-readme-template).
 
 ## FAQ
 
-#### Why is Markdown better than a word processor?
+**Q: Why is Markdown better than a word processor?**
 
-A word processor's main funtion is to create PDFs, however, in many cases, we don't want to simply download our information as a PDF, we want something that can continue to change, and also have a variety of ways to represent the information. With markdown, we can represent our information in simple text, slide shows, and websites. There are many more ways of presenting markdown, which makes it far superior to a word processor in many areas.
+**A:** Word processor's main funtion is to create PDFs, however, in many cases, we don't want to simply download our information as a PDF, we want something that can continue to change, and also have a variety of ways to represent the information. With markdown, we can represent our information in simple text, slide shows, and websites. There are many more ways of presenting markdown, which makes it far superior to a word processor in many areas.
 
-#### Why does my resume not appear on my GitHub homepage?
+**Q: Why does my resume not appear on my GitHub homepage?**
 
+**A:** There are three main causes for this issue, they are as follows:
+ 
 - case 1: You have named your markdown file incorrectly
 
 To correct this, rename your resume file to index.md.
