@@ -4,7 +4,7 @@ The purpose of this README is to show you how to upload a resume formatted in ma
 
 ## Some Prerequities
 
-Before we get started, you will need to set a few things up. You will need the following:
+Before we get started, you will need:
 
 - A GitHub account
 
