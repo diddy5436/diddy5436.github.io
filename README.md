@@ -35,6 +35,7 @@ This is optional, but will speed up the development of your site by reducing the
 
 A Github repository is a form of a distributed version control system or DVCS for short, as mensioned by Etter in his book Modern Technical Writing;
 > DVCS have better performance, allow for offline work, and are superior for concurrent work on the same file.
+
 Though not completely relavent to this task, knowing the many features of DVCS help when working on projects in a group, as well as aid in building your site more effectively.
 
 2. Set a theme for your GitHub pages site:
@@ -50,6 +51,7 @@ I opted to use the slate theme as it is simple and does not drag your focus away
 
 Etter mentions in his book,
 > you provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website.
+
 In other words, Jekyll takes as input the theme and markdown, and outputs a site built with HTML and CSS.
 
 3. Uploading resume to GitHub
@@ -69,6 +71,7 @@ Commits are what allow many individuals to contribute to a project, these commit
 
 It can take time for the changes you make to become visible on your GitHub pages site, this delay is caused by GitHub. The best way to bypass this wait interval is to develop your site locally with Jekyll until the results are satisfactory, and then commit the final result. When testing locally, Jekyll will make a local web server to host your site, as Etter mensions,
 > You can test static websites on your local computer without installing anything and compress and ship them with software applications.
+
 Simply put, there is no need to build a custom web server, or download a heavy web server to test your site. The primary benefits of doing is a lower storage usage and close to live updates on your site for each change you make.
 
 4. View your now completed site
