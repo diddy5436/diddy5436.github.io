@@ -96,6 +96,8 @@ A few resources on markdown:
 
 - A link to [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on technical writing.
 
+- [Jekyll installation guide](https://jekyllrb.com/docs/installation/)
+
 ## Authors and Acknowledgements
 
 The contents of this repository were writen by myself with the help of the following individuals:
