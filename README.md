@@ -26,10 +26,10 @@ This is optional, but will speed up the development of your site by reducing the
 
 1. Set up our GitHub Pages repository:
 
-	- Sign in to Github. 
-	- Click the "+" button in the top right hand corner of the screen
+	- Sign in to Github.
+	- Click the "+" button in the top right hand corner of the screen.
 	- Click on "New repository".
-	- Type (your_user_name).github.io in the repository name field, your_user_name needs to match the user name to the left of the "/" verbatim
+	- Type (your_user_name).github.io in the repository name field, your_user_name needs to match the user name to the left of the "/" verbatim.
 	- Leave all other settings as their default values.
 	- Press the "create repository" button.
 
@@ -52,29 +52,27 @@ I opted to use the slate theme as it is simple and does not drag your focus away
 Etter mentions in his book,
 > you provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website.
 
-In other words, Jekyll takes as input the theme and markdown, and outputs a site built with HTML and CSS.
+In other words, Jekyll takes as input the theme and markdown, and outputs a site built with HTML and CSS. In our case, our resume is the markdown imput for Jekyll.
 
-3. Uploading resume to GitHub
+3. Uploading resume to GitHub:
 
-	- Ensure your resume file is named _index.md_
-	- Return to GitHub
-	- Open the add file drop down
-	- Click upload files
-	- Drag and drop index.md into the designated area
+	- Ensure your resume file is named _index.md_.
+	- Return to GitHub.
+	- Open the add file drop down.
+	- Click upload files.
+	- Drag and drop index.md into the designated area.
 	- Add a title for the commit,
-	- Optionally, add some comments
+	- Optionally, add some comments.
 	- Press commit changes.
-
-As mentioned in the previous step, your resume will be the markdown input to Jekyll.
 
 Commits are what allow many individuals to contribute to a project, these commits need an internet connection, thus any progress can be stored locally until internet is present, where the commit can take place. This is directly related to how DVCS work as menstioned in part 1.
 
-It can take time for the changes you make to become visible on your GitHub pages site, this delay is caused by GitHub. The best way to bypass this wait interval is to develop your site locally with Jekyll until the results are satisfactory, and then commit the final result. When testing locally, Jekyll will make a local web server to host your site, as Etter mensions,
+As mentioned in the prerequisites, GitHub takes time to show the changes you make to your site, as such, you can save time by developing locally with Jekyll. Jekyll creates a local web server to host your site, as Etter mensions;
 > You can test static websites on your local computer without installing anything and compress and ship them with software applications.
 
 Simply put, there is no need to build a custom web server, or download a heavy web server to test your site. The primary benefits of doing is a lower storage usage and close to live updates on your site for each change you make.
 
-4. View your now completed site
+4. View your now completed site:
 
 	- Search up your_user_name.github.io in your web browser, this is the home page of your GitHub pages repository, here is where you will find your resume. 
 
