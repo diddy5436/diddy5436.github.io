@@ -49,8 +49,8 @@ Though not completely relavent to this task, knowing the many features of DVCS h
 
 I opted to use the slate theme as it is simple and does not drag your focus away from the main content.
 
-Etter mentions in his book,
-> you provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website.
+Etter mentions in his book;
+> You provide a static site generator with content (lightweight markup) and a theme (templated HTML and CSS), and it processes everything into a working website.
 
 In other words, Jekyll takes as input the theme and markdown, and outputs a site built with HTML and CSS. In our case, our resume is the markdown imput for Jekyll.
 
@@ -84,15 +84,13 @@ The result of following the above steps is a site containing your resume. Below 
 
 ## More Resources
 
-A few resources on markdown:
-
 - [Learn Markdown](https://www.markdowntutorial.com)
 - [A Markdown Cheat Sheet](https://www.markdownguide.org/basic-syntax/)
 - A [website](https://www.oberlo.ca/blog/markdown-editors) that has a list of great markdown editors.
 
-- my [resume](https://diddy5436.github.io) for reference.
+- My [resume](https://diddy5436.github.io) for reference.
 
-- A link to [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on technical writing.
+- [Etter's book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS), it is a great resource to learn about markdown as well as useful information on technical writing.
 
 - [Jekyll installation guide](https://jekyllrb.com/docs/installation/)
 
